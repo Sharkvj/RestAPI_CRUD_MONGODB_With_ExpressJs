@@ -1,0 +1,22 @@
+{
+  "name": "crud_mongodb",
+  "version": "1.0.0",
+  "description": "crud",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "code with vijay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv-expand": "^12.0.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
